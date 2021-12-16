@@ -11,6 +11,8 @@
 		C6AE147F276B0AEB005B6B93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE147E276B0AEB005B6B93 /* ContentView.swift */; };
 		C6AE1481276B0AF4005B6B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AE1480276B0AF4005B6B93 /* Assets.xcassets */; };
 		C6AE1484276B0AF4005B6B93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AE1483276B0AF4005B6B93 /* Preview Assets.xcassets */; };
+		C6AE148B276B0D71005B6B93 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE148A276B0D71005B6B93 /* LocationViewModel.swift */; };
+		C6AE148D276B160B005B6B93 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6AE148C276B160B005B6B93 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C6AE147E276B0AEB005B6B93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6AE1480276B0AF4005B6B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6AE1483276B0AF4005B6B93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6AE148A276B0D71005B6B93 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		C6AE148C276B160B005B6B93 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C6AE147C276B0AEB005B6B93 /* Swift_MapApp.swift */,
 				C6AE147E276B0AEB005B6B93 /* ContentView.swift */,
+				C6AE148C276B160B005B6B93 /* Settings.bundle */,
+				C6AE148A276B0D71005B6B93 /* LocationViewModel.swift */,
 				C6AE1480276B0AF4005B6B93 /* Assets.xcassets */,
 				C6AE1482276B0AF4005B6B93 /* Preview Content */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AE1484276B0AF4005B6B93 /* Preview Assets.xcassets in Resources */,
+				C6AE148D276B160B005B6B93 /* Settings.bundle in Resources */,
 				C6AE1481276B0AF4005B6B93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AE147F276B0AEB005B6B93 /* ContentView.swift in Sources */,
+				C6AE148B276B0D71005B6B93 /* LocationViewModel.swift in Sources */,
 				C6AE147D276B0AEB005B6B93 /* Swift_MapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 				DEVELOPMENT_TEAM = 9TM8LY638F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Quiero acceder a la localizacion para ver tu mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +310,7 @@
 				DEVELOPMENT_TEAM = 9TM8LY638F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Quiero acceder a la localizacion para ver tu mapa";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
